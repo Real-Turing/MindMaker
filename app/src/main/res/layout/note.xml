@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F3F3F3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/gradual_change2"
+        >
+        <Button
+            android:id="@+id/select_type_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:text="全部笔记"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_style"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:entries="@array/option1"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown">
+        </Spinner>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#0000"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/note_count"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="35"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:text="条笔记" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/speaker"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/add"
+                    android:entries="@array/option2"/>
+               <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    />-->
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

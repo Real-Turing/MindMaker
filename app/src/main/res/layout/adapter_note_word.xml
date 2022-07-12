@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/note_new_editText"
+        android:gravity="start"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#00000000"
+        android:textColor="@color/white"
+        />
+    <View
+        android:id="@+id/ad_news_line"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:background="#dfdfdf"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

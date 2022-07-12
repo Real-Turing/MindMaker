@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:text="please choose your time:"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:typeface="monospace"
+        />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:startYear="2000"
+        android:endYear="2080"
+        android:calendarViewShown="true"
+        android:spinnersShown="true"
+        android:datePickerMode="calendar"
+        />
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:timePickerMode="spinner"
+        />
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        />
+
+</LinearLayout>
+

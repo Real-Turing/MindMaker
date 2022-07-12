@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--  item中的属性：showAsAction：always固定在操作栏上直接显示；  -->
+    <!--  icon可以直接显示指定图标，不显示文本，如果不使用showAsAction="always",则只会显示文本  -->
+    <!--  在图标文本同时存在的情况下，如果想要又显示文本又显示icon，使用showAsAction="always|withText"  -->
+    <item android:title="列表视图"
+        android:id="@+id/list"/>
+    <item android:title="批量删除"
+        android:id="@+id/delete"/>
+    <item android:title="时间顺序"
+        android:id="@+id/sort">
+        <menu>
+            <item android:title="创建时间升序"
+                android:id="@+id/create_increase"/>
+            <item android:title="创建时间降序"
+                android:id="@+id/create_decrease"/>
+            <item android:title="修改时间升序"
+                android:id="@+id/modify_increase"/>
+            <item android:title="修改时间降序"
+                android:id="@+id/modify_decrease"/>
+        </menu>
+    </item>
+
+    <item android:title="更多操作" >
+        <menu >
+            <item android:title="退出"
+                android:id="@+id/exit"/>
+            <item android:title="操作1" />
+            <item android:title="操作2" />
+        </menu>
+    </item>
+</menu>

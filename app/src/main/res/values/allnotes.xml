@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option1">
+        <item>最近删除</item>
+        <item>我的收藏</item>
+        <item>非分类笔记</item>
+        <item>全部笔记</item>
+    </string-array>
+</resources>

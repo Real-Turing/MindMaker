@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始录音" />
+        <Button
+            android:id="@+id/vid_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始录视频" />
+        <Button
+            android:id="@+id/btn_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束录音" />
+        <Button
+            android:id="@+id/vid_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束录视频" />
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放录音" />
+        <Button
+            android:id="@+id/btn_play_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止播放" />
+    </LinearLayout>
+
+
+
+        />
+
+
+    <include layout="@layout/yuyin"/>
+<!--    <EditText-->
+<!--        android:id="@+id/note"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/black"-->
+<!--        />-->
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option2">
+        <item>新建笔记</item>
+        <item>语音速记</item>
+        <item>上传图片</item>
+        <item>共享文档</item>
+    </string-array>
+</resources>

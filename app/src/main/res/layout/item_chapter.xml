@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#eff7e9"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_item_chapter_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/add"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_chapter_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="30dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:text="item_chapter_name"/>
+
+    <TextView
+        android:id="@+id/tv_item_chapter_practise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="practise"/>
+
+</LinearLayout>

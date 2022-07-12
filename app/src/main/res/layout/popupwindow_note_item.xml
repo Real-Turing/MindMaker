@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/delete"
+        android:background="@drawable/ed_bg"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        />
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/top_filling"
+        android:background="@drawable/ed_bg"
+        android:foreground="?selectableItemBackground"
+        />
+    <ImageView
+        android:id="@+id/share_note"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/share"
+        android:background="@drawable/ed_bg"
+        android:foreground="?selectableItemBackground"
+        />
+
+</LinearLayout>

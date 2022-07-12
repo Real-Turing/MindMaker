@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="occupation_option">
+        <item>学生</item>
+        <item>老师</item>
+        <item>农民</item>
+        <item>宇航员</item>
+    </string-array>
+</resources>
